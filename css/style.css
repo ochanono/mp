@@ -30,7 +30,7 @@ html,body {
 
 body {
 	/*font-family: "ヒラギノ丸ゴ Pro", "Hiragino Maru Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;	/*フォント種類*/
-	font-family:"Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体";
+	font-family: YuGothic,'Yu Gothic','ヒラギノ角ゴシック','Hiragino Sans',sans-serif;
 		-webkit-text-size-adjust: none;
 	background: #f5f3e5 url(../images/bg_kazari.png) no-repeat left top / 100%;	/*背景色、背景壁紙の読み込み*/
 	color: #57524b;		/*全体の文字色*/
