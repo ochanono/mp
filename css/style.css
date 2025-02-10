@@ -155,7 +155,7 @@ header .tel {
 	width: 100px;	/*幅*/
 	height: 100px;	/*高さ*/
 	cursor: pointer;
-	background: #6bb3d8 url(../images/ham.png) no-repeat center top/100px;/*背景色、ハンバーガメニュー画像の読み込み。最後のpxは上のwidthとheightと#menubar_hdr.hamと揃えておいて下さい。*/
+	background: #87cefa url(../images/ham.png) no-repeat center top/100px;/*背景色、ハンバーガメニュー画像の読み込み。最後のpxは上のwidthとheightと#menubar_hdr.hamと揃えておいて下さい。*/
 	border-radius: 58% 42% 61% 39% / 44% 55% 45% 56%;	/*角丸の指定*/
 	box-shadow: 2px 2px 0px 4px rgba(0,0,0,0.1);		/*ボックスの影。右へ、したへ、ぼかし幅、広げる距離。0,0,0は黒の事で0.1は色が10%でた状態の事。*/
 	transition: 0.2s;
@@ -185,7 +185,8 @@ header .tel {
 	font-size: 1.3rem;			/*文字サイズ。remの単位についてはテンプレート内の解説をお読み下さい。*/
 	animation: opa1 1s both;	/*フェードインのアニメーション*/
 	background: #fff;			/*背景色*/
-	box-shadow: #6bb3d8 0px 0px 500px inset;	/*ボックスの影。右へ、下へ、ぼかし幅、insetは内側への影という意味。*/
+	box-shadow: #87cefa 0px 0px 500px inset;	/*ボックスの影。右へ、下へ、ぼかし幅、insetは内側への影という意味。*/
+	font-weight: bold; /*追加*/
 }
 
 /*最後のメニューの下に余白をあける*/
@@ -220,12 +221,12 @@ header .tel {
 
 /*上で読み込む背景画像のカラーを抜き出して指定して下さい。*/
 .deco > div {
-	background: #6bb3d8;
+	background: #87cefa;
 }
 
 /*decoブロックのh2見出し*/
 .deco h2 {
-	color: #f5f3e5;	/*文字色*/
+	color: #ffffff;	/*文字色*/
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.3);	/*テキストの影。右へ、下へ、距離、0,0,0は黒の事で0.3は30%色が出た状態。*/
 }
 
@@ -246,12 +247,13 @@ header .tel {
 /*mainブロック内のh2タグ*/
 main h2 {
 	position: relative;
-	color: #6bb3d8;			/*文字色*/
+	color: #87cefa;			/*文字色*/
 	/*font-size: 2.8rem;		/*文字サイズ。remの単位についてはテンプレート内の解説をお読み下さい。*/
 	font-size: clamp(1.5rem, 8vw, 2.8rem);
 	letter-spacing: 0.2em;	/*文字間隔を少し広くする*/
 	margin: 0 20px 30px;	/*上、左右、下へ空けるスペース*/
 	line-height: 1.5;		/*行間*/
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.3);	/*テキストの影。右へ、下へ、距離、0,0,0は黒の事で0.3は30%色が出た状態。*/
 }
 
 /*mainブロック内のh3タグ*/
@@ -314,7 +316,7 @@ main h2 + p,main h3 + p {
 .submenu {
 	background: #fff;			/*背景色*/
 	border-radius: 10px;		/*角丸のサイズ*/
-	border: 5px solid #6bb3d8;	/*枠線の幅、線種、色*/
+	border: 5px solid #87cefa;	/*枠線の幅、線種、色*/
 	padding: 10px 0;			/*上下、左右へのメニュー内の余白*/
 }
 
@@ -336,7 +338,7 @@ main h2 + p,main h3 + p {
 
 /*マウスオン時*/
 .submenu a:hover {
-	background: #6bb3d8;	/*背景色*/
+	background: #87cefa;	/*背景色*/
 	color: #fff;			/*文字色*/
 }
 
@@ -345,7 +347,7 @@ main h2 + p,main h3 + p {
 ---------------------------------------------------------------------------*/
 /*フッターブロック*/
 #footer {
-	background: #6bb3d8;	/*背景色*/
+	background: #87cefa;	/*背景色*/
 	color: #fff;			/*文字色*/
 	margin-top: 50px;		/*フッターの上部(外側)に空けるスペース。上にあるコンテンツとのバランス調整です。*/
 	font-size: 0.85rem;		/*文字サイズ。remの単位についてはテンプレート内の解説をお読み下さい。*/
@@ -365,7 +367,7 @@ main h2 + p,main h3 + p {
 	background: #fff;				/*背景色*/
 	border-radius: 50%;				/*画像が正方形であれば、正円になります。例えばここを30pxとかにすれば角が丸くなった四角形になります。*/
 	padding: 30px;					/*余白*/
-	border: 5px solid #6bb3d8;		/*枠線の幅、線種、色*/
+	border: 5px solid #87cefa;		/*枠線の幅、線種、色*/
 }
 
 
@@ -855,7 +857,7 @@ header .logo {
 /*フッター内のロゴ画像*/
 #footer .logo img {
 	width: 250px;					/*幅*/
-	border: 10px solid #6bb3d8;		/*枠線の幅、線種、色*/
+	border: 10px solid #87cefa;		/*枠線の幅、線種、色*/
 }
 
 

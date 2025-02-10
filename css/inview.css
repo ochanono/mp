@@ -141,7 +141,7 @@
 
 /*要素が見えたら実行するアクション*/
 .transform3style {
-	animation: transform3 0.8s ease-out 0.5s both;
+	animation: transform3 0.5s ease-out 0.5s both;
 }
 
 
