@@ -639,7 +639,7 @@ footer .pr {display: block;}
 .ta1 {
 	border-top: 1px solid #d3c99f;	/*テーブルの一番上の線。幅、線種、色*/
 	table-layout: fixed;
-	width: 100%; /*追加*/
+	width: 80%; /*追加*/
 	min-width: 300px;
 	margin: 0 auto 30px;		/*最後の「30px」がテーブルの下に空けるスペースです*/
 	background: rgba(255,255,255,0.5);	/*背景色。255,255,255は白のことで0.5は色が50%出た状態のこと。*/
