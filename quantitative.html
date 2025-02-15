@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>定量評価分析｜暮らしやすさmotto 土浦motto</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="定量評価分析">
+<link rel="stylesheet" href="css/style.css">
+<link rel="icon" href="images/favicon.ico" id="favicon">
+<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon-180x180.png">
+</head>
+
+<body>
+
+<header>
+<h1 class="logo"><a href="index.html"><img src="images/logo.png" alt="logo"></a></h1>
+<nav>
+<ul>
+<li><a href="index.html">ホーム</a></li>
+<li><a href="basic.html">基本構想</a></li>
+<li><a href="regional.html">地域別構想</a></li>
+<li><a href="quantitative.html">定量評価分析</a></li>
+<li><a href="appendix.html">付録</a></li>
+</ul>
+</nav>
+</header>
+
+<div id="contents">
+
+<main>
+
+<div class="progress"></div>
+
+<section>
+<h2 class="c cracker">定量評価分析<span class="small">Quantitative Evaluation Analysis</span></h2>
+
+
+<div class="list transform3style">
+	<div>
+    <h2 style="color: #57524b" class="list_h2">重回帰分析の実施</h2>
+    <h3 class="list_h3">用いたデータ</h3>
+    
+	</div>
+</div>
+
+
+</section>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+const progressBar = document.querySelector('.progress');
+progressBar.style.transform = 'scaleX(0)'; // ページ読み込み完了時にプログレスバーを非表示にする
+});
+
+window.addEventListener('scroll', () => {
+// 既存のスクロール処理コード
+const scrollTop = document.documentElement.scrollTop;
+const scrollHeight = document.documentElement.scrollHeight;
+const clientHeight = document.documentElement.clientHeight;
+const progressWidth = (scrollTop / (scrollHeight - clientHeight)) * 100;
+
+const progressBar = document.querySelector('.progress');
+
+if (scrollTop === 0) {
+progressBar.style.transform = `scaleX(0)`;
+} else {
+progressBar.style.transform = `scaleX(${progressWidth / 100})`;
+}
+});
+</script>
+
+</main>
+
+<section id="footer">
+
+<h2 class="logo transform3"><img src="images/logo_sub.png" alt=""></h2>
+
+<footer>
+<small>Copyright&copy; <a href="index.html">暮らしやすさmotto 土浦motto</a> All Rights Reserved.</small>
+<span class="pr"><a href="https://template-party.com/" target="_blank">《Web Design:Template-Party》</a></span>
+</footer>
+
+</section>
+<!--/#footer-->
+
+</div>
+<!--/#contents-->
+
+<!--メインメニュー-->
+<nav id="menubar">
+<ul>
+<li><a href="index.html">ホーム<span>Home</span></a></li>
+<li><a href="basic.html">基本構想<span>Basic Concept</span></a></li>
+<li><a href="regional.html">地域別構想<span>Regional Concepts</span></a></li>
+<li><a href="quantitative.html">定量評価分析<span>Quantitative Evaluation Analysis</span></a></li>
+<li><a href="appendix.html">付録<span>Appendix</span></a></li>
+</ul>
+</nav>
+
+<!--jQueryの読み込み-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.rwdImageMaps.js"></script>
+<script>
+$(function(){
+$('img[usemap]').rwdImageMaps();
+});
+</script>
+<script>
+$(document).ready(function() {
+  $('area').click(function(event) {
+    event.preventDefault();
+
+    var targetId = $(this).attr('href');
+
+    $('html, body').animate({
+      scrollTop: $(targetId).offset().top
+    }, 500);
+  });
+});
+</script>
+
+<!--biz56用のスクリプト-->
+<script src="js/main.js"></script>
+
+<!--ハンバーガーボタン（開閉操作のボタン）-->
+<div id="menubar_hdr"></div>
+
+<!--ページの上部へ戻るボタン-->
+<div class="pagetop"><a href="#"><i class="fas fa-angle-double-up"></i></a></div>
+
+<!--パララックス（inview）-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/protonet-jquery.inview/1.1.2/jquery.inview.min.js"></script>
+<script src="js/jquery.inview_set.js"></script>
+
+</body>
+</html>
